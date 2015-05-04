@@ -5,7 +5,7 @@ Assignment 4
  1. Constructors:
     1. No arguments which makes an empty Vector.
     2. `(size, value)` which creates a Vector of that size and with each value being that value.
-    3. **Optional:** (input iterator first, input iterator last) to create a Vector with the values from “first” to “last” from the other container.
+    3. **Optional:** `(input iterator first, input iterator last)` to create a Vector with the values from “first” to “last” from the other container.
  2. `isEmpty()` - checking if it’s empty or not.
  3. `size()` - the number of elements in the Vector.
  4. `capacity()` - the capacity of the Vector, which means the number of elements it can hold before the internal size needs to be made larger.
